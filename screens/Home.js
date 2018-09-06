@@ -62,7 +62,7 @@ class Home extends Component {
             <View>
                 <BannerStatic width = {initWidth}
                       height = {initWidth * (401/773)}
-                      imageUrl = "https://whatnowatlanta.s3.amazonaws.com/media/2016/04/12963715_842861249174745_1313849533491776399_n-1.jpg"
+                      imageUrl = "https://picsum.photos/960/498/?image"
                       style = {{marginBottom: 10}}
                       onPress={() => { Utils.showMessage('From Home.js') }}
                       />
